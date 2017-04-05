@@ -49,3 +49,8 @@ $(call inherit-product, device/motorola/harpia/system_prop.mk)
 PRODUCT_PACKAGES += \
     init.device.config.sh \
     init.target.rc
+
+# RRO
+PRODUCT_ENFORCE_RRO_TARGETS := \
+    framework-res
+
