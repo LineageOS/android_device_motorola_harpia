@@ -22,4 +22,6 @@ export DEVICE=harpia
 export DEVICE_COMMON=msm8916-common
 export VENDOR=motorola
 
+INITIAL_COPYRIGHT_YEAR=2016
+
 ./../../$VENDOR/$DEVICE_COMMON/setup-makefiles.sh $@
