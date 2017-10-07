@@ -7,3 +7,4 @@ ro.qc.sdk.audio.fluencetype=fluence
 
 # Display
 ro.sf.lcd_density=320
+persist.debug.wfd.enable=1
