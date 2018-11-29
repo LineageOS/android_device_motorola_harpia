@@ -35,6 +35,7 @@
         <device name="SND_DEVICE_OUT_SPEAKER_REVERSE" acdb_id="15"/>
         <device name="SND_DEVICE_OUT_VOICE_SPEAKER" acdb_id="14" />
         <!-- IN devices -->
+        <device name="SND_DEVICE_IN_HANDSET_STEREO_DMIC" acdb_id="47" /> <!-- Stock: 41 -->
         <device name="SND_DEVICE_IN_HANDSET_DMIC_AEC" acdb_id="111"/>
         <device name="SND_DEVICE_IN_HANDSET_DMIC_NS" acdb_id="111"/>
         <device name="SND_DEVICE_IN_SPEAKER_MIC_AEC" acdb_id="114"/>
