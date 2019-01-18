@@ -30,6 +30,9 @@ TARGET_PROCESS_SDK_VERSION_OVERRIDE := \
     /system/bin/mediaserver=25 \
     /vendor/bin/mm-qcamera-daemon=25
 
+# Display
+TARGET_SCREEN_DENSITY := 320
+
 # Kernel
 TARGET_KERNEL_CONFIG := harpia_defconfig
 
