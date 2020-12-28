@@ -23,6 +23,8 @@ DEVICE_PATH := device/motorola/harpia
 TARGET_OTA_ASSERT_DEVICE := harpia,harpia_retail
 
 # Camera
+TARGET_HAS_LEGACY_CAMERA_HAL1 := true
+
 TARGET_PROCESS_SDK_VERSION_OVERRIDE := \
     /system/bin/cameraserver=25 \
     /system/bin/mediaserver=25 \
