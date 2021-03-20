@@ -59,3 +59,13 @@ PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += \
     $(LOCAL_PATH)/overlay-lineage/lineage-sdk \
     $(LOCAL_PATH)/overlay/packages/apps/Snap
 
+# Sensors
+PRODUCT_PACKAGES += \
+    akmd09912 \
+    stml0xx \
+    sensors.msm8916 \
+    sensorhub.msm8916
+
+# Get non-open-source specific aspects
+$(call inherit-product, vendor/motorola/harpia/harpia-vendor.mk)
+
